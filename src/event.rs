@@ -3,7 +3,7 @@ use crate::Context;
 use crate::sapp::{self, sapp_keycode, sapp_mousebutton};
 
 #[derive(Debug, Copy, Clone, PartialEq, Hash, Eq)]
-#[repr(C)]
+#[repr(u8)]
 pub enum MouseButton {
     Right,
     Left,
